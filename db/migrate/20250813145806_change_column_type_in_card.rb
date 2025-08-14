@@ -1,0 +1,5 @@
+class ChangeColumnTypeInCard < ActiveRecord::Migration[7.2]
+  def change
+    change_column :cards, :question, :text
+  end
+end
