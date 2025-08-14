@@ -1,0 +1,13 @@
+{
+  // 保存時にフォーマット実行
+  "editor.formatOnSave": true,
+
+  // Rubocopをフォーマッターとして指定
+  "ruby.format": "rubocop",
+
+  // Bundler経由でRubocopを使う場合
+  "ruby.rubocop.executePath": "bundle",
+
+  // Rubocop設定ファイルを指定
+  "ruby.rubocop.configFile": ".rubocop.yml"
+}
